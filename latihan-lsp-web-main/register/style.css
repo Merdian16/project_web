@@ -1,0 +1,54 @@
+body {
+    background-image: url("../foto/japan.jpg");
+}
+
+.container {
+    width: 400px;
+    height: 570px;
+    background: rgba(2, 120, 255, 0.726);
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 40px;
+    border-radius: 75px;
+}
+
+h3 {
+    line-height: 2px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: #4CAF50;
+    color: #fff;
+}
+
+.login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #2bff00;
+}
+.login .nani{
+    text-decoration: none;
+    color: red;
+    font-weight: 25px;
+}

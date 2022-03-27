@@ -1,0 +1,152 @@
+body {
+    background-image: url("https://cutewallpaper.org/21/aesthetic-japanese-words-wallpapers/Aesthetic-Desktop-Wallpaper-Japanese-Words.jpg");
+}
+
+.sidebar {
+    width: 160px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    display: block;
+}
+
+.sidebar a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.main {
+    margin-left: 180px;
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 12px;
+    background: #fff;
+    margin-top: 30px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+a.tambah {
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    background: blue;
+}
+
+a.edit {
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    background: green;
+}
+
+a.hapus {
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    background: red;
+}
+
+.box {
+    height: 100%;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+.box button{
+    background: #000000;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: auto;
+    font-size: large;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.detail-transaksi .transaksi button.berhasil {
+    background: #15ff00;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: auto;
+    font-size: large;
+}
+.detail-transaksi .transaksi button.gagal {
+    background: #ff0000;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: auto;
+}
+.detail-transaksi{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    background: #ffffff;
+    display: flex;
+}
+.detail-transaksi .transaksi {
+    margin-left: 100px;
+    font-size: medium;
+    font-family: sans-serif;
+}
+.aksi a.verif{
+    text-decoration: none;
+    background: #15ff00;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px;
+}
+.aksi a.reject{
+    text-decoration: none;
+    background: #ff0000;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 15px;
+}

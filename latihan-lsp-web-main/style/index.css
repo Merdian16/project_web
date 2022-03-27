@@ -1,0 +1,292 @@
+body {
+    background: #dfdcdc;
+}
+
+.navbar {
+    display: flex;
+    padding: 5px 12px;
+    align-items: center;
+    background: rgba(107, 255, 132, 0.568);
+    padding: 15px;
+    border-radius: 27px;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline;
+    padding: 8px 12px;
+}
+
+.nav-links ul a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #ffffff;
+    padding: 14px 10px;
+    background: rgba(0, 0, 0, 0.788);
+    border-radius: 70px;
+    background-size: auto;
+}
+.nav-links ul a.b{
+    font-weight: bold;
+    background: none;
+}
+.nav-links ul a.a{
+    background: rgba(255, 70, 70, 0.747);
+    font-weight: bold;
+}
+.nav-links ul a.lg{
+    background: #53ff59;
+    font-weight: bold;
+    font-style: oblique;
+}
+.nav-links ul a.rg{
+    background: #00ffdd;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
+.hero {
+    width: 100%;
+    height: 500px;
+    margin-top: 17px;
+    background-image: url("https://img.wallpapersafari.com/desktop/1600/900/66/57/fug6IQ.jpg");
+    border-radius: 30px;
+}
+
+.container .text-produk {
+    margin-left: 50px;
+    margin-top: 6px;
+    font-size: 24px;
+}
+
+.wrapper-produk {
+    max-width: 1450px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.wrapper-produk .produk {
+    height: 350px;
+    padding: 20px;
+    margin-left: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.wrapper-produk .produk a {
+    text-decoration: none;
+}
+
+.wrapper-produk .produk img {
+    width: 250px;
+}
+
+.wrapper-produk .produk h2 {
+    font-size: 30px;
+    color: #000000;
+}
+
+.wrapper-produk .produk p {
+    font-size: 18px;
+    color: #4CAF50;
+    line-height: 0.5px;
+}
+
+.text-detail-produk {
+    margin-left: 60px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.wrapper-detail-produk {
+    margin-left: 60px;
+    display: flex;
+    flex: wrap;
+    padding: 10px;
+}
+
+.wrapper-detail-produk .item img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.wrapper-detail-produk .detail-produk {
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper-detail-produk .detail-produk h4 {
+    font-size: 30px;
+    color: #ff0000;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.wrapper-detail-produk .detail-produk .harga-produk {
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    line-height: 1.5px;
+}
+
+.wrapper-detail-produk .detail-produk input {
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.wrapper-detail-produk .detail-produk button {
+    width: 100%;
+    background: #4CAF50;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.informasi {
+    width: 100%;
+    background: #FFFFFF;
+    padding: 10px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.informasi h2 {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -20px;
+}
+
+.informasi p {
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    background: #fff;
+    margin-top: 30px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+a.detail {
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    background: blue;
+}
+
+.detail-transaksi {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.detail-transaksi .transaksi {
+    margin-left: 100px;
+    font-size: medium;
+    font-family: Condensed;
+}
+
+.detail-transaksi .transaksi button.proses {
+    padding: 15px;
+    background: yellow;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+}
+
+.detail-transaksi .transaksi button.dikirim {
+    padding: 15px;
+    background: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+.detail-transaksi .transaksi button.ditolak {
+    padding: 15px;
+    background: red;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+.card-cart{
+    margin-top: 50px;
+    padding-left: 10px;
+    display: flex;
+}
+.card-cart img{
+    width: 310px;
+}
+.card-cart .child-cart{
+    font-size: 20px;
+    padding-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cart-delete{
+    background: red;
+    text-decoration: none;
+}
+.checkout{
+    background: #4CAF50;
+    text-decoration: none;
+}
+.card-checkout {
+    width: 400px;
+    height: 300x;
+    background: #189AB4;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 50px;
+}
+.form-control{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.btn-checkout{
+    width: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: #76B947;
+    box-sizing: border-box;
+}
